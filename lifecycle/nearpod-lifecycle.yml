@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.nearpod.com
+status_page: https://status.nearpod.com
+status_page_provider: Atlassian Statuspage
+status_components:
+- Login
+- Content Creation
+- Content Delivery
+- Reporting
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+note: >-
+  Nearpod publishes an operational status page (status.nearpod.com, also at
+  nearpod.statuspage.io) powered by Atlassian Statuspage, tracking Login,
+  Content Creation, Content Delivery, and Reporting. Nearpod exposes no public
+  developer REST API, so there is no published API versioning or deprecation
+  policy to capture.

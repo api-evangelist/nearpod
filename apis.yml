@@ -1,8 +1,15 @@
 aid: nearpod
 name: Nearpod
-description: 'Nearpod is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Nearpod is an interactive teaching platform for K-12 and higher-education
+  classrooms, part of Renaissance. Teachers build data-driven lessons that
+  combine real-time formative assessment, interactive activities (quizzes,
+  polls, open-ended questions, collaborate boards, and VR field trips), and
+  22,000+ curriculum-aligned lessons, delivered live (synchronous) or
+  student-paced (asynchronous) with real-time reporting and insights on student
+  performance. Nearpod connects to major LMS and rostering platforms (Google
+  Classroom, Microsoft Teams, Canvas, Schoology, Clever, ClassLink) via LMS/LTI
+  integrations, but publishes no public developer REST API.
 url: https://raw.githubusercontent.com/api-evangelist/nearpod/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.nearpod.com/1784225086296/img/global/nearpod_renaissance.svg
 tags:
 - Company
 - Education
+- EdTech
+- K-12
+- Higher Education
+- Interactive Lessons
+- Formative Assessment
+- LMS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,34 @@ maintainers:
 common:
 - type: Website
   url: https://nearpod.com/
+- type: Blog
+  url: https://nearpod.com/blog/
+- type: Pricing
+  url: https://nearpod.com/pricing
+- type: SignUp
+  url: https://nearpod.com/signup
+- type: Support
+  url: https://nearpod.zendesk.com/hc/en-us
+- type: GettingStarted
+  url: https://nearpod.com/how-nearpod-works/
+- type: Login
+  url: https://app.nearpod.com
+- type: GitHubOrganization
+  url: https://github.com/nearpod
+- type: StatusPage
+  url: https://status.nearpod.com
+- type: Lifecycle
+  url: lifecycle/nearpod-lifecycle.yml
+- type: TermsOfService
+  url: https://www.renaissance.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://nearpod.com/privacy-notice/
+- type: LLMsTxt
+  url: llms/nearpod-llms.txt
+- type: DomainSecurity
+  url: security/nearpod-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
